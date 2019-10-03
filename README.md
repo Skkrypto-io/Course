@@ -24,34 +24,34 @@ Course info for the Skkrypto
 단, 학회원들의 실력과 수요에 따라 내용이 크게 달라질 수 있습니다. 프로젝트의 예상 기간은 약 1달에서 2달 정도로 잡고 있으며 python을 주로 쓸 예정입니다. 
 
 1. lab0: [Damien van Flymen](https://medium.com/@vanflymen/learn-blockchains-by-building-one-117428612f46)의 blockchain tutorial
-  0. 학습목표: 블록체인을 전체적으로 흝어서 어떻게 블록체인이 변경이 불가능한 데이터를 생성하고 이를 공유하는 지 알아봅시다.
-  1. Project: blockchain.py에 docstring 만들어서 documentation 만들어보기.
-  2. Extra: dvf/blockchain에 documentation으로 기여해보기.
+  - 학습목표: 블록체인을 전체적으로 흝어서 어떻게 블록체인이 변경이 불가능한 데이터를 생성하고 이를 공유하는 지 알아봅시다.
+  - Project: blockchain.py에 docstring 만들어서 documentation 만들어보기.
+  - Extra: dvf/blockchain에 documentation으로 기여해보기.
   
 2. lab1: ECDSA와 비대칭키 알고리즘
-  0. 학습목표: 비대칭키가 어떻게 그냥 암호넣어서 암호화시키는 것과 달리 자신임을 인증시켜주는 지 알아보고 이를 사용해봅시다.
-  1. Project: [이더리움/비트코인 주소]() 만들기
-  2. Extra: satoshi labs가 제시하는 스펙을 참고하여 [hdkey wallet]() 만들기
+  - 학습목표: 비대칭키가 어떻게 그냥 암호넣어서 암호화시키는 것과 달리 자신임을 인증시켜주는 지 알아보고 이를 사용해봅시다.
+  - Project: [이더리움/비트코인 주소]() 만들기
+  - Extra: satoshi labs가 제시하는 스펙을 참고하여 [hdkey wallet]() 만들기
   
 3. lab2: Trie와 embedded key-value database
-  0. 학습목표: 어떻게 블록 하나가 블록체인의 모든 데이터를 하나의 해쉬만으로 검증이 가능하게 하는지 알아보고 LevelDB와 RocksDB는 어떻게 구동하는지 알아봅시다.
-  1. Project: state 만들기
-  2. Extra: trie가 적용된 state database 만들기
+  - 학습목표: 어떻게 블록 하나가 블록체인의 모든 데이터를 하나의 해쉬만으로 검증이 가능하게 하는지 알아보고 LevelDB와 RocksDB는 어떻게 구동하는지 알아봅시다.
+  - Project: state 만들기
+  - Extra: trie가 적용된 state database 만들기
 
 4. lab3: p2p connection using python
-  0. 학습목표: p2p가 어떻게 소통하는지 알아보고 이를 활용하는 프레임워크인 libp2p에 대해서 알아봅시다.
-  1. Project: 파이썬 파일 하나로 아주 간단히 ping만 보내는 p2p client 만들어보기
-  2. Extra: libp2p로 채팅앱 만들어보기(Rust/Go/javascript) * python은 아직 개발중이라 불가능합니다.
+  - 학습목표: p2p가 어떻게 소통하는지 알아보고 이를 활용하는 프레임워크인 libp2p에 대해서 알아봅시다.
+  - Project: 파이썬 파일 하나로 아주 간단히 ping만 보내는 p2p client 만들어보기
+  - Extra: libp2p로 채팅앱 만들어보기(Rust/Go/javascript) * python은 아직 개발중이라 불가능합니다.
   
 5. lab4: RPC api 설계
-  0. json-rpc에 대해 이해하고 
-  1. Project: leveldb를 이용해 state를 저장하는 블록체인 state-machine을 만든 다음 REST나 jsonrpc를 이용해서 tx_pool에 리퀘스트를 쌓고 block_confirmation time이 지날 때 마다 처리하는 솔로 노드를 만들어봅시다.
-  2. Extra: p2p로 블록 공유 가능한 블록체인 만들기
+  - json-rpc에 대해 이해하고 
+  - Project: leveldb를 이용해 state를 저장하는 블록체인 state-machine을 만든 다음 REST나 jsonrpc를 이용해서 tx_pool에 리퀘스트를 쌓고 block_confirmation time이 지날 때 마다 처리하는 솔로 노드를 만들어봅시다.
+  - Extra: p2p로 블록 공유 가능한 블록체인 만들기
   
 6. lab5: Consensus and finality
-  0. 학습목표: uncle/aunt block에 대해 이해하고 여러개의 블록들이 다음 블록의 후보로 정해졌을 때 어떤 블록을 택하게 하는 finality gadget에 대해 알아봅시다.
-  1. Project: 마이닝 할 때 마다 자기 블록과 uncle block을 비교해서 finalized block 선택하는 프로세스 만들기
-  2. Extra: 기존에 만든 state-machine에 연동시켜보세요!
+  - 학습목표: uncle/aunt block에 대해 이해하고 여러개의 블록들이 다음 블록의 후보로 정해졌을 때 어떤 블록을 택하게 하는 finality gadget에 대해 알아봅시다.
+  - Project: 마이닝 할 때 마다 자기 블록과 uncle block을 비교해서 finalized block 선택하는 프로세스 만들기
+  - Extra: 기존에 만든 state-machine에 연동시켜보세요!
   
 
 # FAQ
