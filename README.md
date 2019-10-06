@@ -1,4 +1,4 @@
-# BASIC
+# [BASIC-0](https://github.com/Skkrypto-io/Course)
 Course info for the Skkrypto
 
 
